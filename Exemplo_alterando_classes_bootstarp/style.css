@@ -1,3 +1,18 @@
-body{
-    margin: 10px;
+/* Margem para todo o Site */
+*{
+
+    margin: 20px;
+}
+
+
+/* Cor do Titulo */
+h1{
+
+    color: red;
+}
+
+/* Cor do Botão */
+button{
+
+    background-color: green !important;
 }
