@@ -22,7 +22,7 @@ a, i{
     background-position: center;
 }
 
-.bnt{
+.btn{
 
     text-decoration: none;
 
@@ -33,7 +33,7 @@ a, i{
     border-radius: 0;
 }
 
-.bnt:hover{
+.btn:hover{
     background-color: #333;
     color: #fff;
 }
