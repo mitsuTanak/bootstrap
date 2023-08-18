@@ -31,7 +31,7 @@
 
     <!-- Usando Hieraquia nos paragrafos -->
     <p class="h1">Paragrafo usando a classe h1 no bootstra</p>
-    <p class="h3">Paragrafo usando a classe <h3></h3> no bootstra</p>
+    <p class="h3">Paragrafo usando a classe h3 no bootstra</p>
 
     <br><hr>
 
@@ -93,10 +93,104 @@
 
     <h2>Lista inline (serve para criar links)</h2>
     <ul>
-        <li class=""><a href="#">Item</a></li>
-        <li class=""><a href="#">Item</a></li>
-        <li class=""><a href="#">Item</a></li>
+        <li class="list-inline-item"><a href="#">Item</a></li>
+        <li class="list-inline-item"><a href="#">Item</a></li>
+        <li class="list-inline-item"><a href="#">Item</a></li>
     </ul>
+
+    <br><hr>
+
+    <!-- Imagens -->
+
+    <h1 class="text-danger text-center text-decoration-underline">Imagens</h1>
+
+    <!-- A classe col-md-4 faz com que a div ocupe um quarto da largura -->
+    <!-- A classe m-4 é um valor de margem em todos os lados -->
+    <!-- A classe mx-auto centraliza a imagem -->
+    <!-- A classe img-fluid é uma maneira muito útil de fazer com que as imagens se ajustem ao tamanho do container -->
+    <div class="col-md-4 m-4 mx-auto">
+        <img class="img-fluid" src="img/g_1.jpg">
+    </div>
+    
+    <!-- Thumbnail -->
+    <!-- A classe img-thumbnail serve para tornar a imagem uma miniatura. -->
+    <div class="col-md-4 m-4 mx-auto">
+        <img class="img-thumbnail" src="img/g_1.jpg">
+    </div>
+
+    <!-- Figure -->
+    <!-- A classe figure é uma classe Bootstrap que é usada para exibir imagens com legendas -->
+    <div class="col-md-3 m-4 -mx-auto">
+        <figure class="figure">
+            <img src="img/g_1.jpg" class="figure-img img-fluid rounded">
+            <figcaption class="figcaption-caption"> Grafite da Av. Paulista</figcaption>
+        </figure>
+    </div>
+
+    <!-- Tabela -->
+    <h1 class="text-danger text-center text-decoration-underline">Tabelas</h1>
+    <h3 class="text-primary text-decoration-underline">Tabela Normal</h3>
+    <div class="col-6">
+        <table class="table m-4">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sobrenome</th>
+                    <th scope="col">Email</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Ignacius</td>
+                    <td>Type</td>
+                    <td>type@email.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Pedro</td>
+                    <td>Mattos</td>
+                    <td>pedro@email.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Carlos</td>
+                    <td>carlos@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br><hr>
+
+    <h3 class="text-primary text-decoration-underline">Tabela dark</h3>
+
+    <div class="col-6 m-4">
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Produto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Geladeira</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Fogão</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>TV</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 </body>
 </html>
