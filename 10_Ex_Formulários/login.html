@@ -18,7 +18,7 @@
 </head>
 <body>
 
-  <div class="container col-11 col-md-9">
+  <div class="container col-11 col-md-9" id="form-container">
     <!-- Criar um container responsivo com largura personalizada em diferentes breakpoints -->
 
     <div class="row aling-itens-center gx-5">
@@ -29,15 +29,51 @@
       
         <h2>Faça o login para continuar</h2>
       
-        <form action="">
+        <form>
 
           <!-- Cria um formulario -->
           <div class="form-floating mb-3">
 
             <!-- Cria uma formulário com estilo de flutação e margem inferior -->
+            <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu E-mail">
+
+            <!-- Cria um campo de entrada de E-mail -->
+            <label for="email" class="form-label">Digite Seu E-mail</label>
           </div>
 
+          <div class="form-floating mb-3">
+
+            <!-- Cria uma formulário com estilo de flutação e margem inferior -->
+            <input type="password" class="form-control" name="password" id="password" placeholder="Digite sua Senha">
+
+            <!-- Cria um campo de entrada de E-mail -->
+            <label for="password" class="form-label">Digite sua Senha</label>
+          </div>
+
+          <input type="submit" class="btn btn-primary botao" value="Entrar">
+          <!-- Cria um botao de envio do formulario com estilo primário -->
+
         </form>
+
+      </div>
+
+      <div class="col-md-6 order-md-1">
+
+        <div class="col-12">
+
+          <!-- cria uma coluna ocupando 12 colunas em todos breakpoints -->
+
+          <img src="img/login.svg" alt="" class="img-fluid">
+          <!-- Cria uma imagem responsiva que oculpa toda a largura disponivel -->
+
+        </div>
+
+        <div class="col-12" id="link-container">
+          <!-- cria uma coluna ocupando 12 colunas em todos breakpoints com um ID "link-container" -->
+
+          <a href="register.html">Ainda não tenho cadastro</a>
+          <!-- Cria um link para a página "register.html" -->
+        </div>
 
       </div>
 
