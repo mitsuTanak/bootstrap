@@ -8,8 +8,44 @@
     color: #fff !important;
 }
 
-.carrrousel {
+.carousel {
     width: 80%;
     max-width: 1000px;
     margin: 10px auto;
+}
+
+.carousel-item img{
+
+    height: 500px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+/* Cards */
+
+
+.cartões{
+
+    width: 90%;
+    height: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    
+    .cartões{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+
+    }
+
 }
