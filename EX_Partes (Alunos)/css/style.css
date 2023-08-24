@@ -1,0 +1,15 @@
+/* Estilo da navbar */
+.navbar{
+    background-color: #333 !important;
+}
+
+.navbar .navbar-brand, .navbar .nav-link{
+
+    color: #fff !important;
+}
+
+.carrrousel {
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
