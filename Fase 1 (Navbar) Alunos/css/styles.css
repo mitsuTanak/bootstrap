@@ -289,3 +289,167 @@ body {
 
     color: #976df2;
 }
+
+
+/* -------------------------------------------------------- */
+
+
+ /* Define altura e ajusta o redimensionamento das imagens nos cartões */
+ .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Define espaçamento interno para aseçõa dde best sellers */
+#best-sellers {
+    padding: 4em 0;
+}
+
+/* Remove margens horizontais para linha de produtos */
+#best-sellers .row {
+    margin: 0;
+}
+
+/* Ajusta o espaçamento interno das colunas dos produtos */
+#best-sellers .col-md-3 {
+    padding: 0;
+}
+
+/* Estilos para titulo da seção */
+.title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+@media(min-width:768px) {
+    /* Ajusta o alinhamento do titulo para esquerda */
+    .title {
+        text-align: left;
+    }
+
+}
+
+/* Estilos para os preços */
+.original-price {
+    font-size: 18px;
+    color: #f2f2f2;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.discount-price {
+    font-size: 24px;
+    color: #976df2; /* Cor destacada para o preço mais baixo*/
+}
+
+/* Estilos para os cartões de produtos */
+.card {
+    text-align: center;
+    border-radius: 0;
+}
+
+/* Ajusta o tamanho da imagem nos cartões */
+.card img {
+    width: 140px;
+    margin: 2em auto;
+}
+
+/* Estilos para a categoria do produto nos cartões*/
+.card .card-category {
+    font-size: .8rem;
+}
+
+
+/* Estilos para os textos nos cartões*/
+.card .card-text {
+    margin: 2em 0;
+    font-weight: bold;
+}
+
+/* Estilos para os botões de compra */
+.btn {
+    background-color: transparent;
+    border-color: #976df2;
+}
+
+/* Estilos de hover para os botões de compra */
+.btn:hover {
+    background-color: #976df2;
+    border-color: #976df2;
+}
+
+/* ____________________________________________________ */
+/* BOTTOM BANNER */
+
+/* Define cor de fundo , espaçamento interno e margens para o banner */
+#bottom-banner {
+    background-color: #0d0d0d;
+    padding: 6em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+/* Define estilo para subtitulo da oferta e titulo */
+#bottom-banner .offer-subtitle,
+#bottom-banner h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Define tamanho maximo para imagem */
+#bottom-banner img {
+    max-width: 175px;
+}
+
+@media(min-width:768px) {
+    /* Ajusta tamanho do titulo para telas maiores */
+    #bottom-banner h2 {
+        font-size: 5em;
+    }
+}
+
+
+/* ----------------------------------------------------- */
+
+/* ____________________________________________________ */
+    /* (Novidades)NEW PRODUCTS */
+
+    /* Define margem inferior para a seção de Novidades */
+    #new-products {
+        margin-bottom: 5rem;
+    }
+
+    /* Estilos para o banner de Novidades */
+    #new-products-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #0d0d0d;
+    }
+
+    
+    /* Estilos para o titulo do banner de Novidades */
+    #new-products-banner h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        font-size: 2rem
+    }
+
+    
+    /* Ajusta o espaçamento interno das colunas nos cartões de produtos */
+    #new-products .col-md-4 {
+        padding: 0;
+    }
+
+    
+    /* Define tamanho e margem para as imagens nos cartões de produtos */
+    #new-products .card img {
+        height: 150px;
+        width: 90px;
+        margin: 2em auto;
+    }
